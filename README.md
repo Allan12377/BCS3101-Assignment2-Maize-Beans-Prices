@@ -1,4 +1,4 @@
-# BCS 3101 Assignment 2 – Data Pre-processing & EDA Pipeline
+# BCS 3101 Assignment 2 Data Pre processing and EDA Pipeline
 
 **Course:** BCS 3101: Basics of Machine Learning  
 **Institution:** Kabale University  
