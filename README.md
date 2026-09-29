@@ -2,7 +2,7 @@
 
 **Course:** BCS 3101: Basics of Machine Learning  
 **Institution:** Kabale University  
-**Academic Year:** 2025/2026  
+**Academic Year:** 2026/2027  
 
 ## Project Title
 Predicting Monthly Maize and Beans Prices in Selected Ugandan Markets Using Historical Price and Market Data
