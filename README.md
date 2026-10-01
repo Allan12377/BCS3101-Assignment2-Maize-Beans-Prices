@@ -21,35 +21,44 @@ Predicting Monthly Maize and Beans Prices in Selected Ugandan Markets Using Hist
 ## Folder Structure
 ```
 ├── README.md
+├── README RUN ORDER.txt
 ├── BCS3101_Assignment2_Pipeline_Guide.pdf   (lecturer companion guide)
 ├── notebooks/
-│   ├── 2024AKCS5102GF_BCS3101_Assignment2_Notebook1.ipynb
-│   ├── 2024AKCS4333F_BCS3101_Assignment2_Notebook2.ipynb
-│   ├── KYOSHABIRE_DIANAH_BCS3101_Assignment2_Notebook3.ipynb
-│   ├── NIYONSHUTI_MERCY_BCS3101_Assignment2_Notebook4.ipynb
-│   ├── ARINDA_ELIZABETH_BCS3101_Assignment2_Notebook5.ipynb
-│   ├── GUMISIRIZA_AMBROSE_BCS3101_Assignment2_Notebook6.ipynb
-│   ├── AINEBYONA_ALLAN_BCS3101_Assignment2_Notebook7.ipynb
-│   └── FULL_PIPELINE_BACKUP_BCS3101_Assignment2.ipynb
+│   ├── Notebook 1_2024AKCS5102GF.ipynb
+│   ├── Notebook2 - 2024AKCS4333F.ipynb
+│   ├── Notebook3 - KYOSHABIRE_DIANAH.ipynb
+│   ├── Notebook4 - NIYONSHUTI_MERCY.ipynb
+│   ├── Notebook5 ARINDA_ELIZABETH.ipynb
+│   ├── Notebook6 - GUMISIRIZA_AMBROSE.ipynb
+│   ├── Notebook7 - AINEBYONA_ALLAN.ipynb
+│   ├── 09_Model_Training_GROUP.ipynb
+│   └── FULL PIPELINE BACKUP BCS3101 Assignment2.ipynb
 ├── data/
 │   ├── uganda_maize_beans_selected_markets.csv
 │   └── UGA_RTFP_mkt_2007_2026-08-24.xlsx
 ├── figures/
-│   ├── fig1_histograms.png
-│   ├── fig2_boxplots.png
-│   ├── fig3_heatmap.png
-│   ├── fig4_yearly_trend.png
-│   ├── fig5_scatter.png
-│   └── fig6_missing.png
+│   ├── Cleaning Outlier Boxplots.png
+│   ├── EDA Target Boxplots.png
+│   ├── Feature Correlation Heatmap.png
+│   ├── Feature Scaling Comparison.png
+│   ├── Maize and Beans Price Scatter Plot.png
+│   ├── Maize Price Outliers by Year.png
+│   ├── Observed Price Missingness.png
+│   ├── PCA Scree Plot.png
+│   ├── Price Correlation Heatmap.png
+│   ├── Records by Market.png
+│   ├── Target Log Transform.png
+│   ├── Target Price Distribution Comparison.png
+│   ├── Target Price Histograms.png
+│   └── Yearly Average Price Trend.png
 └── report/
-    └── BCS3101_Assignment2_Group_Report.docx
+    └── Ambose.docx
 ```
 
 ## How to Run
-1. Place the CSV (or Excel) file in the same folder as the notebook you want to run, or update the path inside the notebook.
-2. Open any notebook in Google Colab or Jupyter.
-3. Run all cells from top to bottom (Kernel → Restart & Run All).
-4. The FULL_PIPELINE_BACKUP notebook runs the entire pipeline in one go.
+1. Open the project in Jupyter and set `notebooks/` as the working directory. The selected-markets CSV and source Excel file are already in that folder.
+2. Open `FULL PIPELINE BACKUP BCS3101 Assignment2.ipynb` to run the complete pipeline, or open an individual group notebook.
+3. Run all cells from top to bottom (Kernel → Restart & Run All). In Google Colab, upload the selected-markets CSV or source Excel file before running.
 
 ## Dataset
 Uganda Real-Time Food Prices (RTFP) – World Bank / WFP / FAO.  
